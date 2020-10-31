@@ -13,6 +13,7 @@
 		61259BC6254D0DD400B1B7BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61259BC4254D0DD400B1B7BF /* Main.storyboard */; };
 		61259BC8254D0DD600B1B7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61259BC7254D0DD600B1B7BF /* Assets.xcassets */; };
 		61259BCB254D0DD600B1B7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61259BC9254D0DD600B1B7BF /* LaunchScreen.storyboard */; };
+		61259BD8254D0FFD00B1B7BF /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61259BD7254D0FFD00B1B7BF /* LineGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		61259BC7254D0DD600B1B7BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61259BCA254D0DD600B1B7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61259BCC254D0DD600B1B7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61259BD7254D0FFD00B1B7BF /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		61259BBD254D0DD400B1B7BF /* SampleGraph */ = {
 			isa = PBXGroup;
 			children = (
+				61259BDA254D2B4A00B1B7BF /* LineGraph */,
 				61259BBE254D0DD400B1B7BF /* AppDelegate.swift */,
 				61259BC0254D0DD400B1B7BF /* SceneDelegate.swift */,
 				61259BC2254D0DD400B1B7BF /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				61259BCC254D0DD600B1B7BF /* Info.plist */,
 			);
 			path = SampleGraph;
+			sourceTree = "<group>";
+		};
+		61259BDA254D2B4A00B1B7BF /* LineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				61259BD7254D0FFD00B1B7BF /* LineGraph.swift */,
+			);
+			path = LineGraph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61259BD8254D0FFD00B1B7BF /* LineGraph.swift in Sources */,
 				61259BC3254D0DD400B1B7BF /* ViewController.swift in Sources */,
 				61259BBF254D0DD400B1B7BF /* AppDelegate.swift in Sources */,
 				61259BC1254D0DD400B1B7BF /* SceneDelegate.swift in Sources */,

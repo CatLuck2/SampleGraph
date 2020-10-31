@@ -9,9 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scroll: UIScrollView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let graphview = LineGraph() //グラフを表示するクラス
+        self.view.addSubview(graphview) //グラフをスクロールビューに配置
+        graphview.drawLineGraph() //グラフ描画開始
     }
 
 
